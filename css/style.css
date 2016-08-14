@@ -1,0 +1,86 @@
+body {
+    background: rgba(236, 238, 235, 0.2);
+    font-family: Arial;
+    position: relative;
+}
+
+.input-container {
+    position: absolute;
+    left: 404px;
+    top: 110px;
+
+    width: 300px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 10px;
+    box-shadow: 5px 10px 5px #97977e;
+
+}
+
+.input-container input {
+    float: right;
+}
+
+.input-container div {
+    height: 25px;
+}
+
+.input-container button {
+
+    float: right;
+    height: 25px;
+    margin-top: 10px;
+    background-color: #86c340;
+    box-shadow: 1px 3px 2px #97977e;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.employeeFirstName:after,.employeeLastName:after,.employeeSalary:after  {
+    content: " ";
+}
+
+.employeeSalary:before {
+    content: "$ ";
+}
+
+
+.box2 {
+    left: 404px;
+    top: 10px;
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 10px;
+    box-shadow: 5px 10px 5px #97977e;
+}
+
+
+.employeeList {
+    border: solid 1px black;
+    width: 200px;
+}
+
+.alert-maxCount {
+    display: none;
+    font-size: 0.7em;
+    color: red;
+
+
+}
+
+.alert-maxSalaryAmount {
+    display: none;
+    font-size: 0.7em;
+    color: red;
+
+}
+.alert-dublicate {
+    display: none;
+    font-size: 0.7em;
+    color: red;
+}
