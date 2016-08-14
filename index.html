@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HW12</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<div class="limit-box">Max Emploees
+    <input type="number" id="maxEmploee" value="10">
+</div>
+
+<div class="alert-maxCount">You exeeded max numbers emploees in list</div>
+<div class="alert-maxSalaryAmount">Salary can not be more than 2000 $</div>
+<div class="alert-dublicate">Dublicate entry</div>
+<br>
+
+
+
+<div>Employee List</div>
+<ul class="employeeList">
+    <!--  <li>
+          <span class="employeeFirstName1">John</span>
+          <span class="employeeLastName2">Doe</span>
+          <span class="employeeSalary3">$ 1000</span>
+          <span class="employeePosition4">Manager</span>
+      </li>-->
+</ul>
+
+
+<br><br><br><br>
+
+
+
+
+<div class="box2">
+    Number of employees:
+    <sapn class="no-empl"></sapn><div></div>
+    Average salary:
+    <sapn class="avg-salary"></sapn>
+</div>
+
+
+
+
+
+
+
+<div class="input-container">
+    <div><label>First Name<input type="text" id="inputEmployeeFirstName" required   ></label></div>
+    <div><label>Last Name<input type="text" id="inputEmployeeLastName"  minlength="1"></label></div>
+    <div><label>Salary<input type="number" id="inputEmployeeSalary"></label></div>
+    <div><label>Position<input type="text" id="inputEmployeePosition"  minlength="1"></label></div>
+
+    <button class="addEmployee" onclick="run()">Add New employee</button>
+</div>
+
+
+
+
+
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
