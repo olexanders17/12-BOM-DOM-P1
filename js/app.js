@@ -33,7 +33,7 @@ var run = function () {
     }
 
 
-    //dublicates //todo cleaned first
+    //dublicates
     for (var i = 0; i < allLi.length; i++) {
         console.log(allLi[i]);
         if (allLi[i].getElementsByTagName('span')[0].textContent == inputEmployeeFirstName.value) {
@@ -86,7 +86,7 @@ var run = function () {
     var avgSalary = 0;
     for (var i = 0; i < allLi.length; i++) {
 
-        avgSalary += parseInt(allLi[i].getElementsByTagName('span')[2].textContent) || 0;//todo action with NAN
+        avgSalary += parseInt(allLi[i].getElementsByTagName('span')[2].textContent) || 0;
     }
 
     document.querySelector('.avg-salary').textContent = (avgSalary / (allLi.length )).toFixed(1);
